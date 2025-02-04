@@ -1,4 +1,5 @@
 tmp/
+prometheus_grafana/prometheus-3.2.0-rc.1.linux-amd64
 
 # MacOS
 .DS_Store

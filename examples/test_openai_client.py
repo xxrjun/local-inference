@@ -8,7 +8,7 @@ client = OpenAI(
 )
 
 completion = client.chat.completions.create(
-    model="yentinglin/Llama-3-Taiwan-8B-Instruct",
+    model="yentinglin/Llama-3-Taiwan-70B-Instruct",
     messages=[{"role": "user", "content": "Hello!"}],
 )
 

@@ -2,10 +2,17 @@
 
 - [Local Inference](#local-inference)
   - [Tools](#tools)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+    - [Monitor](#monitor)
   - [Open Source Model Collections](#open-source-model-collections)
   - [Environment Setup](#environment-setup)
   - [Example Usage](#example-usage)
+    - [Ollama](#ollama)
+    - [vLLM](#vllm)
+    - [Open Web UI](#open-web-ui)
   - [Downstream Applications](#downstream-applications)
+    - [沉浸式翻譯 Immersive Translate](#沉浸式翻譯-immersive-translate)
 
 ## Tools
 
@@ -19,11 +26,20 @@
 
 - [vLLM](https://github.com/vllm-project/vllm)
   - [Docs](https://docs.vllm.ai/en/latest/index.html)
+  - Monitor [Prometheus and Grafana](https://docs.vllm.ai/en/stable/getting_started/examples/prometheus_grafana.html)
 
 ### Frontend
 
 - [Open Web UI](https://github.com/open-webui/open-webui)
   - [Environment Variable Configuration](https://docs.openwebui.com/getting-started/env-configuration/)
+
+### Monitor
+
+> [!TIP]
+> Check out [prometheus_grafana](./prometheus_grafana) for more details.
+
+- [Grafana](https://github.com/grafana/grafana)
+- [Prometheus](https://github.com/prometheus/prometheus)
 
 ## Open Source Model Collections
 
@@ -45,7 +61,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ## Example Usage
 
-建議使用 [**tmux**](https://github.com/tmux/tmux) 進行多工管理。
+It is recommended to use [tmux](https://github.com/tmux/tmux) to manage multiple sessions.
 
 ### Ollama
 
