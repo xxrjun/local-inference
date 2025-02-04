@@ -1,4 +1,7 @@
 #!/bin/bash
 
-# This will start the Open WebUI server, which you can access at http://localhost:8080
-OLLAMA_BASE_URL="http://localhost:5001" open-webui serve --port 5000
+PORT=5000
+OLLAMA_BASE_URL="http://localhost:5001"
+
+# This will start the Open WebUI server
+open-webui serve --port $PORT --host $OLLAMA_BASE_URL
