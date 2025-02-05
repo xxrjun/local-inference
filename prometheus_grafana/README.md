@@ -2,6 +2,10 @@
 
 ![prometheus_grafana_demo.png](./prometheus_grafana_demo.png)
 
+## Installing Grafana
+
+Please refer to [Grafana Download Section](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&edition=oss) for the latest version.
+
 ## Installing Prometheus
 
 This is an example script to download Prometheus on Linux. Please refer to [Prometheus Donwload Section](https://prometheus.io/download/) and [Getting Started](https://prometheus.io/docs/prometheus/latest/getting_started/) for the latest version.

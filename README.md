@@ -93,6 +93,6 @@ tmux new -s open-webui
 
 ### [沉浸式翻譯 Immersive Translate](https://immersivetranslate.com/)
 
-相關設定參照 [其他 AI 模型臨時接入](https://immersivetranslate.com/zh-TW/docs/services/ai/)
+設定請參照[沉浸式翻譯設定方法](./applications/immersive_translate/)或[其他 AI 模型臨時接入](https://immersivetranslate.com/zh-TW/docs/services/ai/)，
 
 ![immersive_translate_demo.png](./assets/immersive_translate_demo.png)
