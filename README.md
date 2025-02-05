@@ -14,6 +14,9 @@
   - [Downstream Applications](#downstream-applications)
     - [沉浸式翻譯 Immersive Translate](#沉浸式翻譯-immersive-translate)
 
+> [!NOTE]
+> The commands in this guide are intended for **Ubuntu Linux**. If you are using a different platform (e.g., Windows or macOS), please refer to the official documentation of the tool for platform-specific instructions.
+
 ## Tools
 
 ### Backend
