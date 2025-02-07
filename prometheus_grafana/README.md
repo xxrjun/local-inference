@@ -2,6 +2,15 @@
 
 ![prometheus_grafana_demo.png](./prometheus_grafana_demo.png)
 
+- [Prometheus and Grafana](#prometheus-and-grafana)
+  - [Installing Grafana](#installing-grafana)
+  - [Installing Prometheus](#installing-prometheus)
+  - [Adding Data Source](#adding-data-source)
+  - [Additional Panels](#additional-panels)
+    - [vLLM Accumulated Generation Tokens](#vllm-accumulated-generation-tokens)
+  - [References](#references)
+
+
 ## Installing Grafana
 
 Please refer to [Grafana Download Section](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&edition=oss) for the latest version.
