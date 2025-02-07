@@ -61,6 +61,23 @@ You can find the data source id in the URL when you are editing the data source 
 
 ![data_source_id.png](./data_source_id.png)
 
+## Additional Panels
+
+Grafana Web UI → Dashboard → Add Panel → Query
+
+### vLLM Accumulated Generation Tokens
+
+```bash
+increase(vllm:generation_tokens_total[$__range])
+
+# or with model_name
+increase(vllm:generation_tokens_total{model_name="$model_name"}[$__range])
+```
+
+You can get the panel like this:
+
+![accumulated_generation_tokens](./accumulated_generation_tokens.png)
+
 ## References
 
 - [vLLM Docs - Prometheus and Grafana](https://docs.vllm.ai/en/stable/getting_started/examples/prometheus_grafana.html#grafana-dashboard)
