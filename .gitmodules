@@ -1,0 +1,6 @@
+[submodule "applications/tts/fish-speech"]
+	path = applications/tts/fish-speech
+	url = https://github.com/fishaudio/fish-speech.git
+[submodule "applications/tts/ChatTTS"]
+	path = applications/tts/ChatTTS
+	url = https://github.com/2noise/ChatTTS.git
