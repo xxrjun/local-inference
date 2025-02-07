@@ -1,14 +1,18 @@
 # https://github.com/openai/openai-python
 
+import os
 from openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = OpenAI(
-    base_url="http://localhost:5000/v1",
-    api_key="4321aba1234",
+    base_url=os.getenv("OPENAI_API_BASE_URL"),
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 completion = client.chat.completions.create(
-    model="yentinglin/Llama-3-Taiwan-70B-Instruct",
+    model=os.getenv("MODEL_NAME"),
     messages=[{"role": "user", "content": "Hello!"}],
 )
 
