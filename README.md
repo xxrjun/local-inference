@@ -85,26 +85,26 @@ It is recommended to use [tmux](https://github.com/tmux/tmux) to manage multiple
 
 ```bash
 tmux new -s ollama-serve
-./scripts/ollama_serve.sh
+./examples/ollama_serve.sh
 ```
 
 ```bash
 tmux new -s ollama-run
-./scripts/ollama_run.sh
+./examples/ollama_run.sh
 ```
 
 ### vLLM
 
 ```bash
 tmux new -s vllm-serve
-./scripts/vllm_serve.sh
+./examples/vllm_serve.sh
 ```
 
 ### Open Web UI
 
 ```bash
 tmux new -s open-webui
-./scripts/open_webui.sh
+./examples/open_webui.sh
 ```
 
 ### Test OpenAI Compatible API
