@@ -67,7 +67,7 @@ git clone --recurse-submodules https://github.com/xxrjun/local-inference.git
 Then, create a new [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) environment and install the required dependencies:
 
 ```bash
-conda env create -n local-inference python=3.12
+conda env -n local-inference python=3.12
 conda activate local-inference
 
 # Install Python dependencies
