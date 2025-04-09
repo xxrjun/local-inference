@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Docs:
+# - https://docs.vllm.ai/en/stable/serving/env_vars.html
+# - https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html#vllm-serve
+
 MODEL_PATH="yentinglin/Llama-3-Taiwan-70B-Instruct"
 PORT="5000"
 HOST="0.0.0.0"
@@ -8,11 +12,10 @@ DTYPE="float16"
 
 # Utilization
 TENSOR_PARALLEL_SIZE=8
-GPU_MEMORY_UTILIZATION=0.95 # default is 0.9
+GPU_MEMORY_UTILIZATION=0.94 # default is 0.9
 
 # export CUDA_VISIBLE_DEVICES="4,5,6,7"
 
-# https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html#vllm-serve
 vllm serve $MODEL_PATH \
     --port $PORT \
     --host $HOST \

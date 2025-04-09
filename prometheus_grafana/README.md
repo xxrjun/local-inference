@@ -55,10 +55,15 @@ Launch Prometheus with the following command:
 
 ```bash
 # default port is 9090
-./prometheus --config.file=../prometheus.yaml --web.listen-address=:<port>
+./prometheus --config.file=../prometheus.yaml --web.listen-address=:<port> --storage.tsdb.retention.time=<time>
 ```
 
 Futher Reading: [How to Change Prometheus Port - A Step-by-Step Guide](https://signoz.io/guides/configure-prometheus-to-use-non-default-port/)
+
+Also, please note this
+
+> `--storage.tsdb.retention.time`: How long to retain samples in storage. If neither this flag nor storage.tsdb.retention.size is set, the retention time defaults to 15d. Supported units: y, w, d, h, m, s, ms. (ref: https://prometheus.io/docs/prometheus/latest/storage/#operational-aspects)
+
 
 You can access Prometheus Web UI at `<prometheus_ip:port>/targets`.
 
